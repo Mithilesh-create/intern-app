@@ -1,0 +1,219 @@
+.mainAttraction {
+  width: 100%;
+  height: 100vh;
+  background: rgb(53, 34, 117);
+  background: radial-gradient(
+    circle,
+    rgba(53, 34, 117, 1) 0%,
+    rgba(97, 23, 170, 1) 28%,
+    rgba(130, 14, 210, 1) 44%,
+    rgba(128, 15, 208, 1) 97%
+  );
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.centerContainer {
+  width: 90%;
+  height: 80%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+}
+.formModal {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formCentral {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formArea {
+  width: 50%;
+  height: 90%;
+  position: relative;
+  background-color: #209cee;
+  border-radius: 5px;
+}
+.closeBtn {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.closeBtn:active {
+  color: hsl(0, 100%, 70%);
+}
+.ActualForm {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  padding-top: 20px;
+}
+.ActualForm form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.formFields {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  height: 15%;
+  width: 100%;
+}
+.formFields label {
+  font-size: 20px;
+}
+.formFields input {
+  width: 100%;
+  height: 50%;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.hobbies {
+  height: 35%;
+}
+.formFields textarea {
+  width: 100%;
+  height: 70%;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+}
+.InpDeco {
+  padding-left: 5px;
+}
+.saveBtn:hover {
+  background-color: hsl(204, 86%, 75%);
+}
+.saveBtn {
+  transition: background 400ms;
+  color: #fff;
+  background-color: hsl(204, 86%, 70%);
+  padding: 1rem 2rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  outline: 0;
+  border: 0;
+  border-radius: 0.25rem;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.saveBtn:active {
+  background-color: hsl(204, 86%, 30%);
+}
+.displayTab {
+  width: 100%;
+  height: 90%;
+}
+.buttonArea {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 10%;
+}
+.buttonArea button {
+  width: 50%;
+  height: 100%;
+  font-size: 24px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttonArea button i {
+  margin: 15px;
+}
+.buttonArea button:nth-child(1) {
+  background-color: hsl(348, 97%, 55%);
+  border-radius: 0px 0px 0px 5px;
+}
+
+.buttonArea button:nth-child(1):hover {
+  background-color: hsl(348, 97%, 63%);
+}
+.buttonArea button:nth-child(2) {
+  background-color: hsl(195, 98%, 58%);
+  border-radius: 0px 0px 5px 0px;
+}
+.buttonArea button:nth-child(2):hover {
+  background-color: hsl(195, 98%, 65%);
+}
+.buttonArea button:nth-child(2):active {
+  background-color: hsl(195, 98%, 45%);
+}
+td {
+  text-align: center;
+  padding: 8px;
+  height: 26px;
+  color: hsl(0, 0%, 95%);
+}
+td input {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.5);
+}
+.selectData {
+  width: 50%;
+  height: 50%;
+}
+.fa-edit:active {
+  color: dodgerblue;
+}
+.fa-trash:hover {
+  color: hsl(348, 97%, 55%);
+}
+.fa-trash:active {
+  color: yellow;
+}
+td i {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+th {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  font-size: 20px;
+}
+.displayTab {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+}
